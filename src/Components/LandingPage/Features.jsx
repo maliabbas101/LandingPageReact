@@ -1,5 +1,10 @@
 import React from 'react'
-
+import mic from '../../../src/assets/img/front-pages/icons/mic.svg'
+import check from '../../../src/assets/img/front-pages/icons/check-box.svg'
+import calc from '../../../src/assets/img/front-pages/icons/calculator.svg'
+import notes from '../../../src/assets/img/front-pages/icons/notepad.svg'
+import secure from '../../../src/assets/img/front-pages/icons/shield.svg'
+import ease from '../../../src/assets/img/front-pages/icons/happy.svg'
 const Features = () => {
     return (
         <div>
@@ -17,53 +22,50 @@ const Features = () => {
                     <div className="features-icon-wrapper row gx-0 gy-4 g-sm-5">
                         <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                             <div className="text-center mb-3">
-                                <img src="../../assets/img/front-pages/icons/laptop.png" alt="laptop charging" />
+                                <img src={mic} alt="Microphone" />
                             </div>
-                            <h5 className="mb-3">Quality Code</h5>
+                            <h5 className="mb-3">Easy Dictation</h5>
                             <p className="features-icon-description">
-                                Code structure that all developers will easily understand and fall in love with.
+                                Natural dictation input using mobile or desktop.                            </p>
+                        </div>
+                        <div className="col-lg-4 col-sm-6 text-center features-icon-box">
+                            <div className="text-center mb-3">
+                                <img src={check} alt="High Accuracy" />
+                            </div>
+                            <h5 className="mb-3">High Accuracy</h5>
+                            <p className="features-icon-description">
+                                High accuracy cloud speech to text recognitions.
                             </p>
                         </div>
                         <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                             <div className="text-center mb-3">
-                                <img src="../../assets/img/front-pages/icons/rocket.png" alt="transition up" />
+                                <img src={calc} alt="AI Magic" />
                             </div>
-                            <h5 className="mb-3">Continuous Updates</h5>
+                            <h5 className="mb-3">AI Magic</h5>
                             <p className="features-icon-description">
-                                Free updates for the next 12 months, including new demos and features.
-                            </p>
+                                AI processing using specialized prompt engineering.                            </p>
                         </div>
                         <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                             <div className="text-center mb-3">
-                                <img src="../../assets/img/front-pages/icons/paper.png" alt="edit" />
+                                <img src={notes} alt="3d select solid" />
                             </div>
-                            <h5 className="mb-3">Stater-Kit</h5>
+                            <h5 className="mb-3">Beautiful Notes</h5>
                             <p className="features-icon-description">
-                                Start your project quickly without having to remove unnecessary features.
-                            </p>
+                                Well structured notes with one-click copy function.                            </p>
                         </div>
                         <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                             <div className="text-center mb-3">
-                                <img src="../../assets/img/front-pages/icons/check.png" alt="3d select solid" />
+                                <img src={secure} alt="Secure and Safe" />
                             </div>
-                            <h5 className="mb-3">API Ready</h5>
-                            <p className="features-icon-description">
-                                Just change the endpoint and see your own data loaded within seconds.
-                            </p>
+                            <h5 className="mb-3">Secured</h5>
+                            <p className="features-icon-description">Secure and Encrypted.</p>
                         </div>
                         <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                             <div className="text-center mb-3">
-                                <img src="../../assets/img/front-pages/icons/user.png" alt="lifebelt" />
+                                <img src={ease} alt="Easy to use" />
                             </div>
-                            <h5 className="mb-3">Excellent Support</h5>
-                            <p className="features-icon-description">An easy-to-follow doc with lots of references and code examples.</p>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 text-center features-icon-box">
-                            <div className="text-center mb-3">
-                                <img src="../../assets/img/front-pages/icons/keyboard.png" alt="google docs" />
-                            </div>
-                            <h5 className="mb-3">Well Documented</h5>
-                            <p className="features-icon-description">An easy-to-follow doc with lots of references and code examples.</p>
+                            <h5 className="mb-3">Easy to use</h5>
+                            <p className="features-icon-description">An easy-to-follow interface.</p>
                         </div>
                     </div>
                 </div>

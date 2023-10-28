@@ -1,4 +1,9 @@
 import React from 'react'
+import logo from '../../../src/assets/img/front-pages/landing-page/logo.png'
+import githubIcon from '../../../src/assets/img/front-pages/icons/github-light.png'
+import facebookIcon from '../../../src/assets/img/front-pages/icons/facebook-light.png'
+import twitterIcon from '../../../src/assets/img/front-pages/icons/twitter-light.png'
+import instagramIcon from '../../../src/assets/img/front-pages/icons/instagram-light.png'
 
 const Footer = () => {
     return (
@@ -10,14 +15,9 @@ const Footer = () => {
                             <div className="col-lg-5">
                                 <a href="landing-page.html" className="app-brand-link mb-4">
                                     <span className="app-brand-logo demo">
-                                        <svg width={32} height={22} viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fillRule="evenodd" clipRule="evenodd" d="M0.00172773 0V6.85398C0.00172773 6.85398 -0.133178 9.01207 1.98092 10.8388L13.6912 21.9964L19.7809 21.9181L18.8042 9.88248L16.4951 7.17289L9.23799 0H0.00172773Z" fill="#7367F0" />
-                                            <path opacity="0.06" fillRule="evenodd" clipRule="evenodd" d="M7.69824 16.4364L12.5199 3.23696L16.5541 7.25596L7.69824 16.4364Z" fill="#161616" />
-                                            <path opacity="0.06" fillRule="evenodd" clipRule="evenodd" d="M8.07751 15.9175L13.9419 4.63989L16.5849 7.28475L8.07751 15.9175Z" fill="#161616" />
-                                            <path fillRule="evenodd" clipRule="evenodd" d="M7.77295 16.3566L23.6563 0H32V6.88383C32 6.88383 31.8262 9.17836 30.6591 10.4057L19.7824 22H13.6938L7.77295 16.3566Z" fill="#7367F0" />
-                                        </svg>
+                                        <img src={logo} height={32} width={32} alt="logo" />
                                     </span>
-                                    <span className="app-brand-text demo footer-link fw-bold ms-2 ps-1">Vuexy</span>
+                                    <span className="app-brand-text demo footer-link fw-bold ms-2 ps-1">AlcuraScribe</span>
                                 </a>
                                 <p className="footer-text footer-logo-description mb-4">
                                     Most developer friendly &amp; highly customisable Admin Dashboard Template.
@@ -31,26 +31,6 @@ const Footer = () => {
                                         </button>
                                     </div>
                                 </form>
-                            </div>
-                            <div className="col-lg-2 col-md-4 col-sm-6">
-                                <h6 className="footer-title mb-4">Demos</h6>
-                                <ul className="list-unstyled">
-                                    <li className="mb-3">
-                                        <a href="../vertical-menu-template/" target="_blank" className="footer-link">Vertical Layout</a>
-                                    </li>
-                                    <li className="mb-3">
-                                        <a href="../horizontal-menu-template/" target="_blank" className="footer-link">Horizontal Layout</a>
-                                    </li>
-                                    <li className="mb-3">
-                                        <a href="../vertical-menu-template-bordered/" target="_blank" className="footer-link">Bordered Layout</a>
-                                    </li>
-                                    <li className="mb-3">
-                                        <a href="../vertical-menu-template-semi-dark/" target="_blank" className="footer-link">Semi Dark Layout</a>
-                                    </li>
-                                    <li className="mb-3">
-                                        <a href="../vertical-menu-template-dark/" target="_blank" className="footer-link">Dark Layout</a>
-                                    </li>
-                                </ul>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6">
                                 <h6 className="footer-title mb-4">Pages</h6>
@@ -72,11 +52,6 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 col-md-4">
-                                <h6 className="footer-title mb-4">Download our app</h6>
-                                <a href="javascript:void(0);" className="d-block footer-link mb-3 pb-2"><img src="../../assets/img/front-pages/landing-page/apple-icon.png" alt="apple icon" /></a>
-                                <a href="javascript:void(0);" className="d-block footer-link"><img src="../../assets/img/front-pages/landing-page/google-play-icon.png" alt="google play icon" /></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -85,21 +60,21 @@ const Footer = () => {
                         <div className="mb-2 mb-md-0">
                             <span className="footer-text">©
                             </span>
-                            <a href="https://pixinvent.com" target="_blank" className="fw-medium text-white footer-link">Pixinvent,</a>
-                            <span className="footer-text"> Made with ❤️ for a better web.</span>
+                            <a href="https://pixinvent.com" target="_blank" className="fw-medium text-white footer-link">AlcuraScribe,</a>
+                            <span className="footer-text"> All Rights Reserved.</span>
                         </div>
                         <div>
-                            <a href="https://github.com/pixinvent" className="footer-link me-3" target="_blank">
-                                <img src="../../assets/img/front-pages/icons/github-light.png" alt="github icon" data-app-light-img="front-pages/icons/github-light.png" data-app-dark-img="front-pages/icons/github-dark.png" />
+                            <a href="" className="footer-link me-3" target="_blank">
+                                <img src={githubIcon} alt="github icon" data-app-light-img="front-pages/icons/github-light.png" data-app-dark-img="front-pages/icons/github-dark.png" />
                             </a>
-                            <a href="https://www.facebook.com/pixinvents/" className="footer-link me-3" target="_blank">
-                                <img src="../../assets/img/front-pages/icons/facebook-light.png" alt="facebook icon" data-app-light-img="front-pages/icons/facebook-light.png" data-app-dark-img="front-pages/icons/facebook-dark.png" />
+                            <a href="" className="footer-link me-3" target="_blank">
+                                <img src={facebookIcon} alt="facebook icon" data-app-light-img="front-pages/icons/facebook-light.png" data-app-dark-img="front-pages/icons/facebook-dark.png" />
                             </a>
-                            <a href="https://twitter.com/pixinvents" className="footer-link me-3" target="_blank">
-                                <img src="../../assets/img/front-pages/icons/twitter-light.png" alt="twitter icon" data-app-light-img="front-pages/icons/twitter-light.png" data-app-dark-img="front-pages/icons/twitter-dark.png" />
+                            <a href="" className="footer-link me-3" target="_blank">
+                                <img src={twitterIcon} alt="twitter icon" data-app-light-img="front-pages/icons/twitter-light.png" data-app-dark-img="front-pages/icons/twitter-dark.png" />
                             </a>
-                            <a href="https://www.instagram.com/pixinvents/" className="footer-link" target="_blank">
-                                <img src="../../assets/img/front-pages/icons/instagram-light.png" alt="google icon" data-app-light-img="front-pages/icons/instagram-light.png" data-app-dark-img="front-pages/icons/instagram-dark.png" />
+                            <a href="" className="footer-link" target="_blank">
+                                <img src={instagramIcon} alt="google icon" data-app-light-img="front-pages/icons/instagram-light.png" data-app-dark-img="front-pages/icons/instagram-dark.png" />
                             </a>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import customerService from '../../../src/assets/img/front-pages/icons/Contact Us.svg'
 const ContactUs = () => {
     return (
         <div>
@@ -13,7 +13,7 @@ const ContactUs = () => {
                     <div className="row gy-4">
                         <div className="col-lg-5">
                             <div className="contact-img-box position-relative border p-2 h-100">
-                                <img src="../../assets/img/front-pages/landing-page/contact-customer-service.png" alt="contact customer service" className="contact-img w-100 scaleX-n1-rtl" />
+                                <img src={customerService} alt="contact customer service" className="contact-img w-100 scaleX-n1-rtl" />
                                 <div className="pt-3 px-4 pb-1">
                                     <div className="row gy-3 gx-md-4">
                                         <div className="col-md-6 col-lg-12 col-xl-6">
@@ -22,7 +22,7 @@ const ContactUs = () => {
                                                 <div>
                                                     <p className="mb-0">Email</p>
                                                     <h5 className="mb-0">
-                                                        <a href="mailto:example@gmail.com" className="text-heading">example@gmail.com</a>
+                                                        <a href="support@alcurascribe.com" className="text-heading">support@alcurascribe.com</a>
                                                     </h5>
                                                 </div>
                                             </div>
