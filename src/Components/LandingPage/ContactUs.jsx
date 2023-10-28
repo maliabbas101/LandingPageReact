@@ -1,5 +1,5 @@
 import React from 'react'
-import customerService from '../../../src/assets/img/front-pages/landing-page/contact-customer-service.png'
+import customerService from '../../../src/assets/img/front-pages/icons/Contact Us.svg'
 const ContactUs = () => {
     return (
         <div>

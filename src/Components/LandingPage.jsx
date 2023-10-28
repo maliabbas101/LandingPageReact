@@ -6,6 +6,7 @@ import Features from './LandingPage/Features'
 import FAQ from './LandingPage/FAQ'
 import ContactUs from './LandingPage/ContactUs'
 import Footer from './LandingPage/Footer'
+import HowItWorks from './LandingPage/HowItWorks'
 
 const LandingPage = () => {
     return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
             <Navbar/>
             <Header/>
             <Features/>
+            <HowItWorks/>
             <Pricing/>
             <FAQ/>
             <ContactUs/>
