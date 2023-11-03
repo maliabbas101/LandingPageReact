@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../LandingPage/Navbar'
+import Navbar from '../Navbar'
 import Header from '../LandingPage/Header'
 import Pricing from '../LandingPage/Pricing'
 import Features from '../LandingPage/Features'
@@ -11,7 +11,6 @@ import HowItWorks from '../LandingPage/HowItWorks'
 const LandingPage = () => {
     return (
         <div>
-            <Navbar/>
             <Header/>
             <Features/>
             <HowItWorks/>
