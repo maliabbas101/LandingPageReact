@@ -13,12 +13,6 @@ const Features = () => {
                     <div className="text-center mb-3 pb-1">
                         <span className="badge bg-label-primary">Useful Features</span>
                     </div>
-                    <h3 className="text-center mb-1">
-                        <span className="section-title">Everything you need</span> to start your next project
-                    </h3>
-                    <p className="text-center mb-3 mb-md-5 pb-3">
-                        Not just a set of tools, the package includes ready-to-deploy conceptual application.
-                    </p>
                     <div className="features-icon-wrapper row gx-0 gy-4 g-sm-5">
                         <div className="col-lg-4 col-sm-6 text-center features-icon-box">
                             <div className="text-center mb-3">

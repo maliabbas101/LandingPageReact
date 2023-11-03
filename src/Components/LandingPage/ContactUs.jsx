@@ -16,25 +16,14 @@ const ContactUs = () => {
                                 <img src={customerService} alt="contact customer service" className="contact-img w-100 scaleX-n1-rtl" />
                                 <div className="pt-3 px-4 pb-1">
                                     <div className="row gy-3 gx-md-4">
-                                        <div className="col-md-6 col-lg-12 col-xl-6">
-                                            <div className="d-flex align-items-center">
+                                        <div className="col-md-12 col-lg-12 col-xl-12">
+                                            <div className="d-flex justify-content-center mt-2">
                                                 <div className="badge bg-label-primary rounded p-2 me-2"><i className="ti ti-mail ti-sm" /></div>
                                                 <div>
                                                     <p className="mb-0">Email</p>
                                                     <h5 className="mb-0">
                                                         <a href="support@alcurascribe.com" className="text-heading">support@alcurascribe.com</a>
                                                     </h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6 col-lg-12 col-xl-6">
-                                            <div className="d-flex align-items-center">
-                                                <div className="badge bg-label-success rounded p-2 me-2">
-                                                    <i className="ti ti-phone-call ti-sm" />
-                                                </div>
-                                                <div>
-                                                    <p className="mb-0">Phone</p>
-                                                    <h5 className="mb-0"><a href="tel:+1234-568-963" className="text-heading">+1234 568 963</a></h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -47,8 +36,8 @@ const ContactUs = () => {
                                 <div className="card-body">
                                     <h4 className="mb-1">Send a message</h4>
                                     <p className="mb-4">
-                                        If you would like to discuss anything related to payment, account, licensing,<br className="d-none d-lg-block" />
-                                        partnerships, or have pre-sales questions, you’re at the right place.
+                                        If you want to discuss anything related to your account,<br className="d-none d-lg-block" />
+                                        or our product, send us a message.
                                     </p>
                                     <form>
                                         <div className="row g-3">

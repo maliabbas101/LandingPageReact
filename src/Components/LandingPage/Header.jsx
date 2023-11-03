@@ -12,7 +12,7 @@ const Header = () => {
                         <div className="hero-text-box text-center">
                             <h1 className="text-primary hero-title display-6 fw-bold">AI-enhanced Medical Scribes</h1>
                             <h2 className="hero-sub-title h6 mb-4 pb-1">
-                                Easily create &amp; clinical visit notes with help of 
+                                Easily create clinical visit notes with help of 
                                 <br className="d-none d-lg-block" />
                                 speech recognition and AI.
                             </h2>

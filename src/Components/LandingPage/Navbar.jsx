@@ -24,7 +24,7 @@ const Navbar = () => {
                         {/* Mobile menu toggle: End*/}
                         <Link to="/" className="app-brand-link">
                             <span className="app-brand-logo demo">
-                                <img src={logo} width={200} height={52} alt="" />
+                                <img src={logo} width={200} height={35} alt="" />
                             </span>
                             <span className="app-brand-text demo menu-text fw-bold ms-2 ps-1"></span>
                         </Link>
